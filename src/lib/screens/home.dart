@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
         title: const Padding(
           padding: EdgeInsets.only(left: 10.0),
           child: Text(
-            "Chat WPA",
+            "Whatsapp 2",
             style: TextStyle(
               fontSize: 26,
               fontFamily: 'Metropolis Black',

@@ -21,8 +21,14 @@ class ClientHubService{
       .build();
 
     hubConnection.on("ReceiveMessageFromSameGroup", listners.writeMessage);
-  
+
+    var teamId = "eea809f5-01b5-48ee-94c0-805b6c214c3d";
+    var message = "Tia jô";
+    
+
     await hubConnection.start();
+
+    hubConnection.invoke("SendMessageToGroupAsync", args: <Object>[teamId, message]);
   }
   
 }

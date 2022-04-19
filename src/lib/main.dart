@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     ClientHubService clientHubService = ClientHubService();
     
     clientHubService.startConnection();
-
+    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: appTitle,

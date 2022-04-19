@@ -35,12 +35,37 @@ class MessageService {
   }
 
   // Chat messages
-  List<Message> getMessages(User sender) {
+  List<Message> getMessages(User sender) {    
     return [
       Message(
         sender: null,
         time: '18:42',
-        text: 'Mensagens que vão vir do banco',
+        text: 'oi',
+      ),
+      Message(
+        sender: null,
+        time: '18:42',
+        text: 'oi',
+      ),
+      Message(
+        sender: backoffice,
+        time: '18:42',
+        text: 'ivozão',
+      ),
+      Message(
+        sender: rafa,
+        time: '18:42',
+        text: 'assis',
+      )
+      ,Message(
+        sender: rafa,
+        time: '18:42',
+        text: 'tchau',
+      )
+      ,Message(
+        sender: rafa,
+        time: '18:42',
+        text: 'Cris Rock',
       )
     ];
   }
